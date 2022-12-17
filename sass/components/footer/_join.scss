@@ -1,0 +1,41 @@
+.join-networks {
+    color: var(--thirdly-text-color);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .networks-list{
+    display: flex;
+    margin-top: 20px;
+   
+  }
+  .networks-link{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;
+    color:white;
+    // margin-left: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+         &:hover,
+         &:focus{
+        background-color: #2196F3;
+        }
+  
+
+  }
+
+  .networks-icon{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  .networks-item:not(:first-child){
+    margin-left: 10px;
+  }
+
+ 

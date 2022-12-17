@@ -1,0 +1,35 @@
+body{
+    font-family:"Roboto",sans-serif;
+    color: var(--primary-text-color);
+   
+ }
+ *,
+ *::before,
+ *::after{
+     box-sizing: border-box;
+ }
+ /* скидаємо всі браузерні стилі  */
+ h1,
+ h2,
+ h3,
+ p,
+ ul{
+     padding: 0;
+     margin: 0;
+ }
+ a{
+     text-decoration: none;
+     margin: 0;
+     padding: 0;
+     color: var(--primary-text-color);
+ }
+ ul{
+    
+     list-style: none;
+ }
+ 
+ img {
+     display: block;
+     max-width: 100%;
+     height: auto;
+   }
